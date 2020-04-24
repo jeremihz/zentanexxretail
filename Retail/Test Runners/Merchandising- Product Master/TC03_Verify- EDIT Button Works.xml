@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Merchandising Product Master">
+	<test name="Verify- Navigation To product Master" verbose="2">
+		<classes>
+			<class name="Merchandising.ProductMaster_EditProduct" />
+
+		</classes>
+	</test> <!-- Default test -->
+</suite> <!-- Default suite -->

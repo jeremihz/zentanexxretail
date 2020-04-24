@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Merchandising Product Master">
+	<test name="Verify ACTIVATE and DEACTIVATE Buttons Work as intended" verbose="2">
+		<classes>
+			<class name="Merchandising.ProductMaster_Activate_Deactivate" />
+
+		</classes>
+	</test> <!-- Default test -->
+</suite> <!-- Default suite -->

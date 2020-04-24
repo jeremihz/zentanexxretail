@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-08-25T07:49:11Z" name="Merchandising Product Master" finished-at="2018-08-25T07:49:35Z" duration-ms="24015">
+    <groups>
+    </groups>
+    <test started-at="2018-08-25T07:49:11Z" name="Verify- Table Pagination to Page 1 and Page 3" finished-at="2018-08-25T07:49:35Z" duration-ms="24015">
+      <class name="Merchandising.ProductMaster_Pagination">
+        <test-method is-config="true" signature="setUp_openBrowser()[pri:0, instance:Merchandising.ProductMaster_Pagination@5b94b04d]" started-at="2018-08-25T10:48:54Z" name="setUp_openBrowser" finished-at="2018-08-25T10:49:11Z" duration-ms="16577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp_openBrowser -->
+        <test-method signature="a_NavigateTo_productMaster()[pri:0, instance:Merchandising.ProductMaster_Pagination@5b94b04d]" started-at="2018-08-25T10:49:11Z" name="a_NavigateTo_productMaster" finished-at="2018-08-25T10:49:24Z" duration-ms="13486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a_NavigateTo_productMaster -->
+        <test-method signature="b_countAvailableRowsOnTable()[pri:0, instance:Merchandising.ProductMaster_Pagination@5b94b04d]" started-at="2018-08-25T10:49:24Z" name="b_countAvailableRowsOnTable" finished-at="2018-08-25T10:49:29Z" duration-ms="5077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_countAvailableRowsOnTable -->
+        <test-method signature="c_ExecutePagination()[pri:0, instance:Merchandising.ProductMaster_Pagination@5b94b04d]" started-at="2018-08-25T10:49:29Z" name="c_ExecutePagination" finished-at="2018-08-25T10:49:35Z" duration-ms="5434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c_ExecutePagination -->
+        <test-method signature="d_Verify_Table_Pagination()[pri:0, instance:Merchandising.ProductMaster_Pagination@5b94b04d]" started-at="2018-08-25T10:49:35Z" name="d_Verify_Table_Pagination" finished-at="2018-08-25T10:49:35Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d_Verify_Table_Pagination -->
+        <test-method is-config="true" signature="tearDown_closeBrowser()[pri:0, instance:Merchandising.ProductMaster_Pagination@5b94b04d]" started-at="2018-08-25T10:49:35Z" name="tearDown_closeBrowser" finished-at="2018-08-25T10:49:39Z" duration-ms="4271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown_closeBrowser -->
+      </class> <!-- Merchandising.ProductMaster_Pagination -->
+    </test> <!-- Verify- Table Pagination to Page 1 and Page 3 -->
+  </suite> <!-- Merchandising Product Master -->
+</testng-results>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Merchandising Product Master">
+	<test name="Product Master Functional Tests" verbose="2">
+		<classes>
+			<class name="Merchandising.ProductMaster" /><!-- Verify Navigation to product master page-->
+			<class name="Merchandising.ProductMaster_NEW" /><!-- Verify NEW button Works as intended -->
+			<class name="Merchandising.ProductMaster_EditProduct" /><!-- Verify EDIT button Works as intended -->
+			<class name="Merchandising.ProductMaster_VIEW" /><!-- Verify VIEW button Works as intended -->
+			<class name="Merchandising.ProductMaster_SEARCH" /><!-- Verify Search By Product Code & Descrption -->
+			<class name="Merchandising.ProductMaster_Pagination" /><!-- Verify Table Pagination Works -->
+		</classes>
+	</test> <!-- Default test -->
+</suite> <!-- Default suite -->
